@@ -11,7 +11,7 @@ function Login() {
     <Box
       sx={{
         backgroundImage: `url(${backgroundImage})`,
-        height: "100vh",
+        height: "1024px",
 
         backgroundSize: "cover", // Cover the entire area
         backgroundPosition: "center", // Center the image
@@ -44,13 +44,17 @@ function Login() {
           <span className="forgot-password">
             <Link to="/forget">Forgot Password ?</Link>
           </span>
+          <span className="forgot-password">
+            <Link to="/newAccount">Create a new account....</Link>
+          </span>
+          <span className="forgot-password">
+            <Link to="/check">Check Your Inbox</Link>
+          </span>
+          <span className="forgot-password">
+            <Link to="/verificationCode">VerificationCode...</Link>
+          </span>
 
-          <input
-            className="login-button"
-            type="submit"
-            value="Sign In"
-            
-          />
+          <input className="login-button" type="submit" value="Sign In" />
         </form>
         <div className="social-account-container">
           <span className="title">Or Sign in with</span>

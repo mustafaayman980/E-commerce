@@ -6,7 +6,7 @@ function Forget() {
     <Box
       sx={{
         backgroundImage: `url(${backgroundImage})`,
-        height: "100vh",
+        height: "1024px",
 
         backgroundSize: "cover", // Cover the entire area
         backgroundPosition: "center", // Center the image
@@ -45,7 +45,7 @@ function Forget() {
               fontWeight: "400",
               fontSize: "14px",
               color: "#000000",
-            
+
               marginTop: "20px",
             }}
           >
