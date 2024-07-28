@@ -99,15 +99,17 @@ import { useState } from "react";
         </Typography>
       </Stack>
 
-      <Search>
-        <SearchIconWrapper>
-          <SearchIcon sx={{ cursor: "pointer", color: "#008ECC" }} />
-        </SearchIconWrapper>
-        <StyledInputBase
-          placeholder="Search essentials, groceries and more..."
-          inputProps={{ "aria-label": "search" }}
-        />
-      </Search>
+     <Link to="/search">
+       <Search>
+         <SearchIconWrapper>
+           <SearchIcon sx={{ cursor: "pointer", color: "#008ECC" }} />
+         </SearchIconWrapper>
+         <StyledInputBase
+           placeholder="Search essentials, groceries and more..."
+           inputProps={{ "aria-label": "search" }}
+         />
+       </Search>
+     </Link>
 
       <Stack direction={"row"} alignItems={"center"}>
         <IconButton>
